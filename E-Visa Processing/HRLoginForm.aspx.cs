@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace E_Visa_Processing
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class HRLoginForm : System.Web.UI.Page
     {
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
@@ -32,7 +29,7 @@ namespace E_Visa_Processing
 
                 if (txtUsername.Text == username && txtPassword.Text == password)
                 {
-                    Response.Redirect("AdminLogin.aspx");
+                    Response.Redirect("HRLogin.aspx");
                 }
                 else
                 {
@@ -46,15 +43,15 @@ namespace E_Visa_Processing
             dr.Close();
             con.Close();
         }
-           
 
 
-        
+
+
 
         protected void btnClose_Click(object sender, EventArgs e)
         {
             // Close the page or redirect to a different page
-            Response.Redirect("VisaPortal.aspx"); 
+            Response.Redirect("VisaPortal.aspx");
         }
     }
 }

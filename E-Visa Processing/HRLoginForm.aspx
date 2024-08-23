@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="E_Visa_Processing.Login" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HRLoginForm.aspx.cs" Inherits="E_Visa_Processing.HRLoginForm" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">
