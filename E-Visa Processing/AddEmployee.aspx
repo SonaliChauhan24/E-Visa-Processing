@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Practise.aspx.cs" Inherits="E_Visa_Processing.Practise" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddEmployee.aspx.cs" Inherits="E_Visa_Processing.AddEmployee" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -54,16 +54,16 @@
         }
     </style>
 </head>
-<body  style ="border: 1px solid black; padding: 15px;background-size: 100% 100%;background-position: center; background-color:lightblue;">
+<body  style ="background-image:url('Content/Images/image.jpg');background-size:cover;background-repeat:no-repeat;border: 2px solid black; padding: 25px;background-size: 100% 100%;background-position: center; ">
     <div class="container">
         <form id="form1" runat="server">
             <!-- First Form: FILL DETAILS -->
             <div class="form-container">
                 <h2>FILL DETAILS</h2>
-                 <label for="txtID">HR ID:</label>
+                 <label for="txtID">Employee ID:</label>
                 <asp:TextBox ID="txtID" runat="server" TextMode="Number"></asp:TextBox>
 
-                <label for="txtName">Name:</label>
+                <label for="txtName">Employee Name:</label>
                 <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
 
                 <label for="txtEmail">Email:</label>

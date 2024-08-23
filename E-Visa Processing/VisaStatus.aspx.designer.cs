@@ -11,7 +11,7 @@ namespace E_Visa_Processing
 {
 
 
-    public partial class Practise
+    public partial class VisaStatus
     {
 
         /// <summary>
@@ -24,76 +24,76 @@ namespace E_Visa_Processing
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtID control.
+        /// pnlVisaDetails control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtID;
+        protected global::System.Web.UI.WebControls.Panel pnlVisaDetails;
 
         /// <summary>
-        /// txtName control.
+        /// gvVisaDetails control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.GridView gvVisaDetails;
 
         /// <summary>
-        /// txtEmail control.
+        /// pnlRenewalRequest control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.Panel pnlRenewalRequest;
 
         /// <summary>
-        /// txtPhoneNo control.
+        /// lblVisaId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPhoneNo;
+        protected global::System.Web.UI.WebControls.Label lblVisaId;
 
         /// <summary>
-        /// ddlGender control.
+        /// txtVisaId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlGender;
+        protected global::System.Web.UI.WebControls.TextBox txtVisaId;
 
         /// <summary>
-        /// txtAddress control.
+        /// lblReason control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAddress;
+        protected global::System.Web.UI.WebControls.Label lblReason;
 
         /// <summary>
-        /// txtDate control.
+        /// txtReason control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDate;
+        protected global::System.Web.UI.WebControls.TextBox txtReason;
 
         /// <summary>
-        /// btnSubmitDetails control.
+        /// btnSubmitRenewal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitDetails;
+        protected global::System.Web.UI.WebControls.Button btnSubmitRenewal;
 
         /// <summary>
         /// Label1 control.

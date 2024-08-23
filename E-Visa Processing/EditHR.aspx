@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Practise.aspx.cs" Inherits="E_Visa_Processing.Practise" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditHR.aspx.cs" Inherits="E_Visa_Processing.EditHR" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -54,16 +54,18 @@
         }
     </style>
 </head>
-<body  style ="border: 1px solid black; padding: 15px;background-size: 100% 100%;background-position: center; background-color:lightblue;">
+<body  style ="border: 1px solid black; padding: 15px;background-size: 100% 100%;background-position: center; background-color:lightblue; ">
     <div class="container">
-        <form id="form1" runat="server">
+        <form id="editHRForm" runat="server">
             <!-- First Form: FILL DETAILS -->
             <div class="form-container">
                 <h2>FILL DETAILS</h2>
                  <label for="txtID">HR ID:</label>
                 <asp:TextBox ID="txtID" runat="server" TextMode="Number"></asp:TextBox>
 
-                <label for="txtName">Name:</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button1" runat="server" Text="Search" OnClick="btnSearch_Click"  />
+&nbsp;<label for="txtName">Name:</label>
                 <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
 
                 <label for="txtEmail">Email:</label>
@@ -86,7 +88,7 @@
                 <label for="txtDate">Date:</label>
                 <asp:TextBox ID="txtDate" runat="server" TextMode="Date"></asp:TextBox>
 
-                <asp:Button ID="btnSubmitDetails" runat="server" Text="Submit" OnClick="btnSubmitDetails_Click"  />
+                <asp:Button ID="btnSubmitDetails" runat="server" Text="Update Details" OnClick="btnUpdate_Click"  />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label1" runat="server"></asp:Label>
 &nbsp;<br />

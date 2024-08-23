@@ -72,7 +72,7 @@ textarea {
 
    </style>
 </head>
-<body style ="background-image:url('Content/Images/image.jpg');background-size:cover;background-repeat:no-repeat;border: 2px solid black; padding: 25px;background-size: 100% 100%;background-position: center; ">
+<body style ="border: 1px solid black; padding: 15px;background-size: 100% 100%;background-position: center; background-color:lightblue; ">
     <form id="form1" runat="server">
         <div class="container">
             <h1>Feedback Form</h1>

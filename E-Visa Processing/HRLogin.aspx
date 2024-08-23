@@ -8,7 +8,7 @@
     <title>HR Dashboard</title>
     <link rel="stylesheet" href="HRstyles.css">
 </head>
-<body  style ="background-image:url('Content/Images/image.jpg');background-size:cover;background-repeat:no-repeat;border: 2px solid black; padding: 25px;background-size: 100% 100%;background-position: center; ">
+<body  style ="border: 1px solid black; padding: 15px;background-size: 100% 100%;background-position: center; background-color:lightblue; ">
     <div class="dashboard">
         <h1 class="heading">HR DASHBOARD</h1>
         <div class="card-container" style="cursor:pointer;">

@@ -8,9 +8,9 @@
     <title>Employee Dashboard</title>
     <link rel="stylesheet" href="Empstyles.css">
 </head>
-<body style ="background-image:url('Content/Images/image.jpg');background-size:cover;background-repeat:no-repeat;border: 2px solid black; padding: 25px;background-size: 100% 100%;background-position: center; ">
+<body style ="border: 1px solid black; padding: 15px;background-size: 100% 100%;background-position: center; background-color:lightblue; ">
     <div class="dashboard">
-    <div class="dashboard">
+  
         <h1 class="heading">EMPLOYEE DASHBOARD</h1>
         <div class="card-container" style="cursor:pointer;">
             <div class="card">
@@ -23,11 +23,11 @@
             </div>
             <div class="card">
                 <h2>CHANGE PASSWORD</h2>
-                <h4 class="heading2">Employee can send feedback directly to admin.</h4>
+                <h4 class="heading2">An Employee can change the password with new one anytime.</h4>
             </div>
             <div class="card" onclick="window.location.href='Feedback.aspx'">
                 <h2>FEEDBACK</h2>
-                <h4 class="heading2"> An Employee can change the password with new one anytime. </h4>
+                <h4 class="heading2"> Employee can send feedback directly to admin. </h4>
             </div>
         </div>
     </div>
